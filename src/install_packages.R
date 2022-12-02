@@ -4,6 +4,7 @@ install.packages("Seurat")
 install.packages("dplyr")
 install.packages("shinydashboard")
 install.packages("DT")
+install.packages("RANN")
 
 # The following two commands remove any previously installed H2O packages for R.
 if ("package:h2o" %in% search()) { detach("package:h2o", unload=TRUE) }
