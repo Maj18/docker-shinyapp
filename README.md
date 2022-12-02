@@ -19,7 +19,7 @@ run commands:
 
 test the container:
 
-`docker run -d -p 8787:8787  -e USER=guest -e PASSWORD=guest -v /Users/ekol-yal/Documents/shiny_dashboard:/home/guest/r-docker maj18/shinyapp`
+`docker run -d -p 8787:8787  -e USER=guest -e PASSWORD=guest -v /Users/ekol-yal/Documents/shiny_dashboard:/home/guest/r-docker IMAGE.ID`
 
 
 R - studio can be accessible via http://localhost:8787 in the browser
